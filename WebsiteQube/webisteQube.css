@@ -1,0 +1,12 @@
+nav{
+    background-color: white;
+}
+
+li{
+    display: inline;
+}
+
+a:hover{
+    color: green;
+}
+
