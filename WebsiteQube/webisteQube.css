@@ -7,13 +7,19 @@ li{
     display: inline;
 }
 
+ul{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 a:hover{
     color: green;
+    text-decoration: underline;
 }
 
 nav a{
     text-decoration: none;
-    font-family: ;
+    font-size: 12pt;
     padding: 30px;
     color: black;
 }
@@ -37,3 +43,4 @@ hr{
     width: 1200px;
     margin: 0px auto 0px auto;
 }
+
