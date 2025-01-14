@@ -19,10 +19,14 @@ nav a{
 
 #qubelogo{
  float: left;
- margin-right: 100px;
+ margin: 0px 100px 0px 200px;
 }
 
 body{
-    width: 1000px;
     margin: 0px auto 0px auto;
+}
+
+hr{
+    width: 100%;
+    margin : 50px 0px 20px 0px;
 }
