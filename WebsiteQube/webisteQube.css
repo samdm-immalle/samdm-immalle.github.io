@@ -24,7 +24,7 @@ nav a{
 }
 
 body{
-    margin: 0px auto 0px auto;
+    
 }
 
 hr{
@@ -33,6 +33,7 @@ hr{
 }
 
 #afbeeldingslogan{
+    display: block;
     width: 1200px;
-    margin: 0px 0px 0px 150px;
+    margin: 0px auto 0px auto;
 }
