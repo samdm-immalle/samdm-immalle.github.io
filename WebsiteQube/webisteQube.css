@@ -1,6 +1,6 @@
 nav{
     background-color: white;
-    padding: 50px 100px 20px 10px;
+    padding: 50px 190px 20px 10px;
 }
 
 li{
@@ -13,7 +13,7 @@ a:hover{
 
 nav a{
     text-decoration: none;
-    padding: 10px;
+    padding: 30px;
     color: black;
 }
 
@@ -28,5 +28,10 @@ body{
 
 hr{
     width: 100%;
-    margin : 50px 0px 20px 0px;
+    margin : 50px 0px 0px 0px;
+}
+
+#afbeeldingslogan{
+    width: 1200px;
+    margin: 0px 0px 0px 150px;
 }
