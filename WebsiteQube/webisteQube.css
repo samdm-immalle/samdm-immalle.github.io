@@ -5,12 +5,12 @@ nav{
 
 li{
     display: inline;
+    float: left;
 }
 
 ul{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 50px;
 }
 a:hover{
     color: green;
@@ -25,8 +25,8 @@ nav a{
 }
 
 #qubelogo{
- float: left;
- margin: 0px 100px 0px 200px;
+ float: right;
+ margin: 0px 300px 0px 200px;
 }
 
 body{
@@ -47,15 +47,12 @@ hr{
 #column.middle{
     text-align: center;
     margin: 50px auto 0px auto;
+    width: 50%;
     color: red;
 }
 
-#column{
+aside{
     float: left;
-}
-
-#column.side{
-    
 }
 .afbeeldinglinks{
     float: left;
@@ -69,4 +66,12 @@ hr{
     display: block;
 }
 
+#britsevlag{
+    height: 30px;
+}
+
+#aboutus{
+    margin: 100px auto 0px auto;
+    width: 80%;
+}
 
