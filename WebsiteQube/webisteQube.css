@@ -1,7 +1,11 @@
 nav{
     background-color: white;
-    padding: 50px 190px 20px 10px;
+    padding: 20px 190px 20px 10px;  
+    width: 100%;
+    height: 130px;
+    position: fixed;
 }
+
 
 li{
     display: inline;
@@ -9,11 +13,10 @@ li{
 }
 
 ul{
-    position: fixed;
     top: 50px;
+    padding: 60px 0px 20px 50px;
 }
-a:hover{
-    color: green;
+a:hover{        
     text-decoration: underline;
 }
 
@@ -30,8 +33,7 @@ nav a{
 }
 
 body{
-    
-}
+    }
 
 hr{
     width: 100%;
