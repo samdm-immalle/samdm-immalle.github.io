@@ -11,6 +11,16 @@ nav{
     float: left;
 }
 
+#lioverons{
+    display: inline;
+    float: left; 
+}
+
+#uloverons{
+    top: 50px;
+    padding: 30px 0px 20px 50px;
+}
+
 #ulindex{
     top: 50px;
     padding: 30px 0px 20px 50px;
@@ -28,7 +38,7 @@ nav{
 } 
 
 #ultypesproducten{
-    margin: 40px 380px 0px 380px;
+    margin: 30px auto 10px 80px;
 }
 
 #litypesproducten{
@@ -38,12 +48,11 @@ nav{
 article a{
     text-decoration: none;
     color: rgb(12, 114, 8);
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 a:hover{        
     text-decoration: underline;
-    color: black;
 }
 
 nav a{
@@ -53,14 +62,16 @@ nav a{
     color: black;
 }
 
-#qubelogo{
+.qubelogo{
  float: right;
  margin: 0px 300px 0px 200px;
  height: 100px;
 }
 
 body{
-    }
+    width: 100%;
+    font-family: inherit;
+}
 
 hr{
     width: 100%;
@@ -73,28 +84,74 @@ hr{
     margin: 0px auto 0px auto;
 }
 
-#column.middle{
+.links{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.rechts{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.Qube{
     text-align: center;
-    margin: 50px auto 0px auto;
-    width: 50%;
-    color: red;
+    max-width: 600px;
+    align-self: flex-start;
+    margin-top: 90px;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-aside{
-    float: left;
-}
-.afbeeldinglinks{
-    float: left;
-    width: 500px;
-    height: 250px;
-    display: block;
+.homepagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.afbeeldingrechts{
-    float: right;
-    display: block;
+.ProductenKlanten{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.schaarhekken{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tuinberging{
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Carports{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 #britsevlag{
     height: 30px;
 }
@@ -103,4 +160,46 @@ aside{
     margin: 100px auto 0px auto;
     width: 80%;
 }
+#lifooter{
+    display: block;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 100px;
+    font-size: 13pt;
+}
 
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.hrfooter{
+    height: 2px;
+    background-color: black;
+}
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+    width:100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footercenter iframe{
+    text-align: center;
+}
+
+.footerbottom{
+    background-color: black;
+    height: 100%;
+}
+
+.footeropeningsuren{
+    margin: 20px 50px 0px 0px
+}
