@@ -257,104 +257,74 @@ h3{
 .sectieofferte{
     font-size: 13pt;
     margin: 40px 0px 0px 0px;
+} 
+
+@media (max-width: 1024px) {
+    nav {
+        padding: 20px;
+        height: auto;
+    }
+
+    .qubelogo {
+        margin: 0 auto;
+        height: 80px;
+    }
+
+    .homepagina, .ProductenKlanten, .diensten, .articlediensten {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .links, .rechts, .schaarhekken, .tuinberging, .Carports, .fotolinksdiensten, .fotorechtsdiensten {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 768px) {
     nav {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
+    nav a {
+        display: block;
+        padding: 10px;
     }
 
     .qubelogo {
         height: 70px;
-    }
-
-    .homepagina, .ProductenKlanten, .diensten, .articlediensten, .aboutus {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #lifooter {
         margin: 10px 0;
-    }
-
-    .aboutus {
-        flex-direction: column;
-    }
-
-    .aboutustekst {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .afbeeldingenaboutus {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .qubelogo {
-        height: 60px;
-    }
-
-    .footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .aboutus {
-        flex-direction: column;
-    }
-
-    .aboutustekst {
-        padding: 10px;
-    }
-
-    .afbeeldingenaboutus {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-
-    nav {
-        padding: 10px 5%;
-    }
-
-    .qubelogo {
-        height: 50px;
     }
 
     .homepagina, .ProductenKlanten, .diensten, .articlediensten {
         flex-direction: column;
-        text-align: center;
     }
 
     .footer {
         flex-direction: column;
+        text-align: center;
+    }
+
+    #afbeeldingslogan{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 10pt;
+    }
+
+    .qubelogo {
+        height: 60px;
     }
 }
